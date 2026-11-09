@@ -1,0 +1,11 @@
+{
+  "name": "teacup",
+  "owner": { "name": "Teacup", "url": "https://kiit.fyi/developers/" },
+  "plugins": [
+    {
+      "name": "teacup",
+      "source": "./",
+      "description": "Make apps for Teacup from a sentence, checked against its guidelines and uploaded to your workspace."
+    }
+  ]
+}

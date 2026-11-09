@@ -1,0 +1,20 @@
+# Uploads the app in this repository to Teacup as a new version each time a release is published. Needs the app's
+# Teacup id in app.json, and a developer key as the secret TEACUP_KEY: run `npx teacup-os login --print --name
+# "GitHub: <repository>"`, approve it in Teacup, and add what it prints in Settings, Secrets and variables, Actions.
+# https://kiit.fyi/developers/shipping/
+name: Upload to Teacup
+on:
+  release:
+    types: [published]
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      # The release's tag, like v1.2.0, is the version uploaded.
+      - run: npx --yes teacup-os@0 deploy --version "${GITHUB_REF_NAME#v}"
+        env:
+          TEACUP_KEY: ${{ secrets.TEACUP_KEY }}

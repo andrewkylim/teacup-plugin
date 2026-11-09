@@ -1,0 +1,8 @@
+{
+  "name": "teacup",
+  "version": "0.1.0",
+  "description": "Make apps for Teacup (kiit.fyi) from a sentence: built to Teacup's guidelines, checked, reviewed and uploaded to your workspace with the teacup command.",
+  "author": { "name": "Teacup", "url": "https://kiit.fyi/developers/" },
+  "homepage": "https://kiit.fyi/developers/",
+  "keywords": ["teacup", "apps"]
+}
