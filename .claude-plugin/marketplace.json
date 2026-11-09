@@ -1,6 +1,12 @@
 {
   "name": "teacup",
-  "owner": { "name": "Teacup", "url": "https://kiit.fyi/developers/" },
+  "owner": {
+    "name": "Teacup",
+    "url": "https://kiit.fyi/developers/"
+  },
+  "metadata": {
+    "description": "Teacup's own plugin for Claude Code: make apps for Teacup and upload them to your workspace."
+  },
   "plugins": [
     {
       "name": "teacup",
