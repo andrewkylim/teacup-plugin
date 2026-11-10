@@ -11,7 +11,10 @@ Then ask: "make me a Teacup app that tracks our test spend". Claude starts it fr
 
 Claude can check and upload versions. Installing an app, choosing what it may reach and switching it on for the Assistant stay with you, in Teacup's Apps.
 
-- `skills/teacup-app/`: the skill.
+To bring a website you already run into Teacup as an app, ask for `/teacup:connect https://your.site/`: Claude checks the live site, proposes each change to your project for you to approve, and registers it.
+
+- `skills/teacup-app/`: making an app.
+- `skills/connect/`: connecting an existing website.
 - `templates/teacup.yml`: a GitHub workflow that uploads a new version on each release.
 
 How to build an app by hand, the guidelines and the manifest: https://kiit.fyi/developers/
