@@ -5,7 +5,7 @@ description: Publishes a Teacup app for every workspace through Teacup's App Rev
 
 # Publish a Teacup app
 
-Teacup (kiit.fyi) lists an app for every workspace only once a person at Teacup has reviewed that exact version. The developer registers once (in Teacup), then submits each version with a listing; a reviewer tries it, then approves it, asks for changes, or says why not, by email and in Developer. Every new version is reviewed again. The rules are at https://kiit.fyi/developers/publishing/ and https://kiit.fyi/developers/guidelines/.
+Teacup (kiit.fyi) lists an app for every workspace only once a person at Teacup has reviewed that exact version. The developer registers once (in Teacup), then submits each version with a listing; a reviewer tries it, then approves it, asks for changes, or says why not, by email and in Developer. Every new version is reviewed again. The rules are at https://kiit.fyi/developers/publishing/ and https://kiit.fyi/developers/guidelines/ (each page is also Markdown: add `index.md` to its address, or read every page at once in https://kiit.fyi/developers/llms-full.txt).
 
 **What's yours and what's theirs.** You may run `teacup status`, `teacup deploy`, `teacup submit` and `teacup withdraw`, help write `listing.json`, and draft what's new and the reviewer notes. **Registering as a developer and accepting the developer terms and content policy are the person's alone, by their own click in Teacup.** Never fill in or submit that page, never drive Teacup in a browser for them, never say you've accepted anything. Never install or grant anything. Never print or copy their developer key.
 

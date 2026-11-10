@@ -17,4 +17,4 @@ To bring a website you already run into Teacup as an app, ask for `/teacup:conne
 - `skills/connect/`: connecting an existing website.
 - `templates/teacup.yml`: a GitHub workflow that uploads a new version on each release.
 
-How to build an app by hand, the guidelines and the manifest: https://kiit.fyi/developers/
+How to build an app by hand, the guidelines, the kit and the manifest: https://kiit.fyi/developers/. For Claude or another AI tool, every page in one file: https://kiit.fyi/developers/llms-full.txt
