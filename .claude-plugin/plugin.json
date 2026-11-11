@@ -1,6 +1,6 @@
 {
   "name": "teacup",
-  "version": "0.3.1",
+  "version": "0.3.3",
   "description": "Make apps for Teacup (kiit.fyi) from a sentence or from a website you already run, check and upload them with the teacup command, and publish them for every workspace through Teacup's App Review.",
   "author": { "name": "Teacup", "url": "https://kiit.fyi/developers/" },
   "homepage": "https://kiit.fyi/developers/",
