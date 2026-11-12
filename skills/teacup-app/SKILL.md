@@ -5,7 +5,7 @@ description: Makes a small Teacup app from one sentence ("a tracker for our test
 
 # Make a Teacup app
 
-Teacup (kiit.fyi) is a web operating system for individuals and teams. An app for it is a small web app that runs on its own address on backed.cc, in a locked window, and reaches Teacup only through the kit. It keeps its records in **collections** declared in its manifest, so it needs no server code: Teacup keeps them in the person's workspace, live across devices, logs every change with Undo in Activity, and gives Claude tools for each collection once the person switches the app on for the Assistant.
+Teacup (kiit.fyi) is a web operating system for individuals and teams. An app for it is a small web app that runs on its own address on backed.cc, in a locked window, and reaches Teacup only through the kit. It keeps its records in **collections** declared in its manifest, so it needs no server code: Teacup keeps them in the person's workspace, live across devices, logs every change with Undo in Activity, finds them in Teacup's search, and gives Claude tools for each collection once the workspace lets the Assistant use the app (asked when it's installed, with Yes chosen). Name a record's title `title` or `name` and keep its words in string fields: that's what search finds it by.
 
 Read https://kiit.fyi/developers/llms-full.txt first: every developer page in one Markdown file, including the guidelines, the kit reference (every call with its parameters and an example), the manifest reference and the recipes. Keep to it. If you can only read a little, read https://kiit.fyi/developers/llms.txt (an index, with a Markdown link for each page) and then the guidelines, the kit reference and the recipe nearest the request.
 
