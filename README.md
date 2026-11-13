@@ -9,6 +9,8 @@ Make apps for [Teacup](https://kiit.fyi), a web operating system for individuals
 
 Then ask: "make me a Teacup app that tracks our test spend". Claude starts it from Teacup's template, builds it to the guidelines, checks it with the `teacup` command (`npx teacup-os`), has a separate agent review it, and uploads it to your workspace. The first upload asks you to approve this computer in Teacup.
 
+Without a terminal, in claude.ai or Claude's apps, Teacup's connector (`mcp.kiit.fyi`) checks, uploads and lists your apps too, each upload allowed by you on Teacup's own card.
+
 Claude can check and upload versions. Installing an app, choosing what it may reach and switching it on for the Assistant stay with you, in Teacup's Apps.
 
 To bring a website you already run into Teacup as an app, ask for `/teacup:connect https://your.site/`: Claude checks the live site, proposes each change to your project for you to approve, and registers it.

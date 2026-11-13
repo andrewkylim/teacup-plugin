@@ -13,6 +13,8 @@ Read https://kiit.fyi/developers/llms-full.txt first: every developer page in on
 
 **You may check and upload the app. You never install it or grant it anything.** Uploading uses a developer key that can do nothing else; installing is where the person chooses what the app may reach, and only they do it, in Teacup's Apps. Never sign in to Teacup for them, never drive Teacup in a browser to install, and never print or copy their key.
 
+**Without a terminal** (claude.ai, or Claude's apps), the same upload is on Teacup's connector, `mcp.kiit.fyi`, for an owner of the workspace: `developers__check_app` checks an `app.json` and its built files as the upload will, `developers__upload_app` uploads a version once the person allows it on Teacup's own card (give them the link, wait, then call it again with exactly the same details), and `developers__my_apps` lists their apps, with each tool's calls this week. The guidelines' checks of the code run only in the command, so in Claude Code always use `npx teacup-os check` and `deploy`. https://kiit.fyi/developers/shipping/#claude-s-door has it in full.
+
 Keep it small: one screen that does one job well beats three that half work. If the request needs something collections can't do (live typing together, server code, a secret key, sending email), stop and say so: those aren't available to apps yet.
 
 ## The steps
