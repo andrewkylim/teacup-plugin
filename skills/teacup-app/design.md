@@ -2,8 +2,6 @@
 
 Your app can look like itself. Teacup asks two things of every app's design: that it fits Teacup's frame and layout rules, and that it meets the design principles below. Everything else (palette, type, corners, layout) is yours. Teacup's eight looks, further down, show the bar and are there to borrow from, never to copy.
 
-Apps the Assistant makes are the exception: they're always drawn in one of the eight looks, so that what it makes is reliable.
-
 ## Required for every app
 
 ### The frame

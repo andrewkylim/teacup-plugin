@@ -11,6 +11,8 @@ Then ask: "make me a Teacup app that tracks our test spend". Claude starts it fr
 
 Without a terminal, in claude.ai or Claude's apps, Teacup's connector (`mcp.kiit.fyi`) checks, uploads and lists your apps too, each upload allowed by you on Teacup's own card.
 
+Claude Code is the best supported tool and the one tested end to end. Any AI coding tool that can run a terminal can use `npx teacup-os` (`new`, `check`, `upload`, `submit`) with `https://kiit.fyi/developers/llms-full.txt` given to it, and any tool that speaks MCP can use the connector at `https://mcp.kiit.fyi/mcp`.
+
 Claude can check and upload versions. Installing an app, choosing what it may reach and switching it on for the Assistant stay with you, in Teacup's Apps.
 
 To bring a website you already run into Teacup as an app, ask for `/teacup:connect https://your.site/`: Claude checks the live site, proposes each change to your project for you to approve, and registers it.
