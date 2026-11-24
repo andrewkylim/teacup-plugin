@@ -17,7 +17,7 @@ Claude can check and upload versions. Installing an app, choosing what it may re
 
 To bring a website you already run into Teacup as an app, ask for `/teacup:connect https://your.site/`: Claude checks the live site, proposes each change to your project for you to approve, and registers it.
 
-To list an app for every workspace, ask "publish my app": Claude checks where things stand, drafts the listing and the notes for the reviewer (and, for an update, what's new), shows them to you to change or agree, then submits. Registering as a developer and accepting the terms stay with you, in Teacup.
+To list an app for every workspace, ask "publish my app": Claude checks where things stand, drafts the listing and the notes for the reviewer (and, for an update, what's new), shows them to you to change or agree, then submits. Registering as a developer (your handle, the name on your apps and the terms) stays with you, in Teacup, as does your public profile. Once an app is approved, Claude offers its links to share: the play link, your profile, and for a website app the Keep in Teacup button for your own site.
 
 - `skills/teacup-app/`: making an app.
 - `skills/connect/`: connecting an existing website.
